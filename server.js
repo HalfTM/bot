@@ -15,9 +15,9 @@ const bot = mineflayer.createBot({
 });
 
 bot.once('spawn', function () {
-    bot.chat('/reg password password');
-    bot.chat('/l password');
-    bot.chat('/roleplay');
+    bot.chat('/reg dragonpl dragonpl');
+    bot.chat('/l dragonpl');
+    bot.chat('/s2');
 });
 
 app.use(express.static('public'));
